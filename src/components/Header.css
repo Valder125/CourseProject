@@ -1,0 +1,62 @@
+/* src/components/Header.css */
+
+.header {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: text-decoration 0.2s ease;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header-left {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-link {
+  position: relative;
+  margin-left: 16px;
+}
+
+.icon-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

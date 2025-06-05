@@ -1,0 +1,117 @@
+/* Контейнер всієї сторінки */
+.shop-page {
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+/* Список товарів */
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Карточка товару */
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Зображення товару */
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Інформація про товар */
+.product-info {
+  flex: 1;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Кнопки дій */
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #fff;
+}
+
+.product-button.cart {
+  background-color: #007bff;
+}
+
+.product-button.cart:hover {
+  background-color: #0056b3;
+}
+
+.product-button.favorite {
+  background-color: #e91e63;
+}
+
+.product-button.favorite:hover {
+  background-color: #ad1457;
+}
+
+/* 🔧 Адаптивність */
+@media (max-width: 768px) {
+  .product-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-info {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .product-actions {
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .product-button {
+    width: 48%;
+    text-align: center;
+  }
+}

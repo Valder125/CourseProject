@@ -1,0 +1,79 @@
+.catalog-form {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.catalog-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.catalog-select,
+.catalog-input {
+  padding: 10px 14px;
+  border: 1.8px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+.catalog-select:hover,
+.catalog-input:hover {
+  border-color: #3b82f6; /* blue-500 */
+}
+
+.catalog-select:focus,
+.catalog-input:focus {
+  border-color: #2563eb; /* blue-600 */
+  outline: none;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.5);
+}
+
+.catalog-price-inputs {
+  display: flex;
+  gap: 12px;
+}
+
+.catalog-input {
+  flex: 1;
+}
+
+.catalog-button {
+  margin-top: 12px;
+  background-color: #000000; /* чорний */
+  color: white;
+  padding: 14px 0;
+  font-weight: 700;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 0.5);
+}
+
+.catalog-button:hover {
+  background-color: #222222; /* темно-сірий */
+  box-shadow: 0 8px 16px rgb(34 34 34 / 0.7);
+}
+
+.catalog-button:active {
+  background-color: #111111; /* ще темніший */
+  box-shadow: none;
+  transform: translateY(2px);
+}
+

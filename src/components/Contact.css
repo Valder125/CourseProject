@@ -1,0 +1,23 @@
+/* src/components/Contacts.css */
+
+.contacts-section {
+  margin-top:1rem;
+  background-color: black;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contacts-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contacts-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+  color: white;
+}

@@ -1,0 +1,30 @@
+/* src/page/ShopPage.css */
+.shop-page {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 80vh;
+}
+
+.shop-page__products {
+  flex: 2;
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  overflow-y: auto;
+}
+
+.shop-page__filter {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  max-height: fit-content;
+  position: sticky;
+  top: 20px;
+}

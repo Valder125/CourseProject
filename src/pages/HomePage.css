@@ -1,0 +1,192 @@
+.intro-section {
+  position: relative;
+  height: 800px;
+  background-image: url("https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/174636482.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border: 20px solid black;
+
+}
+
+.intro-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* темний напівпрозорий оверлей */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  gap: 12px;
+}
+
+.intro-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.intro-subtitle {
+  font-size: 2.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.intro-button {
+  background-color: #000000;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-button:hover {
+  background-color: #222222;
+  box-shadow: 0 8px 16px rgb(34 34 34 / 0.7);
+}
+.disk-info-background {
+  position: relative;
+  background-image: url('https://www.graphene.cam.ac.uk/sites/default/files/styles/leading/public/media/news/graphene-enables-ten-times-higher-data-storage-in-computer-memories.jpg?itok=3B7IFhf6');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  border: 20px solid black;
+
+}
+
+.disk-info-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.disk-info-overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.disk-info-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.disk-info-subtitle {
+  font-size: 2.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.7);
+}
+.advantages-background {
+  position: relative;
+  background-image: url('https://media.kingston.com/kingston/hero/ktc-articles-hdd-vs-ssd-hero-lg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  border: 20px solid black;
+}
+
+.advantages-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.advantages-overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.advantages-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.advantages-list li {
+  font-size: 2.125rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.7);
+}
+.types-background {
+  position: relative;
+  background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQH6mPQmdAhUqA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1690045454764?e=2147483647&v=beta&t=Y91k7bcU3DDIEXtAPSO-94I4gw7tTEpgGg4LOq6PUW4');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  border: 20px solid black;
+}
+
+.types-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.types-overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.types-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.types-subtitle {
+  font-size: 2.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.7);
+}
